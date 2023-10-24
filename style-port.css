@@ -1,0 +1,201 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-weight: 300;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none !important;
+}
+
+body {
+    background-color: #171414 !important;
+}
+
+section {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.bg-cont{
+    background-image: url(bg.png);
+    background-attachment: fixed;
+}
+
+img.logos{
+    width: 25px;
+    margin: 5px;
+}
+
+img.myFoto {
+    border-radius: 50px 0 50px 0;
+    width: 50%;
+}
+
+.fs-peq{
+    font-size: 14px;
+    font-style: italic;
+}
+
+.dataExp {
+    color: aqua;
+}
+
+.cargo {
+    color: rgb(9, 158, 158);
+}
+
+li.experi {
+    margin-top: 50px;
+    padding-left: 20px;
+    border-left: 1px solid aqua;
+}
+
+li.habil{
+    margin-top: 50px;
+    padding-right: 20px;
+    border-right: 1px solid rgb(9, 158, 158);
+    text-align: end;
+}
+
+.services{
+    background-color: rgba(101, 90, 90, 0.06);
+}
+
+.card h5{
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.imagemCard1 {
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    transition: height 0.9s ease;
+}
+
+.imagemCard1::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100%;
+    background-image: url(logo.png);
+    opacity: 0;
+    transition: opacity 0.9s ease, transform 0.9s ease;
+}
+
+.imagemCard1:hover {
+    height: 250px;
+}
+
+.imagemCard1:hover::before {
+    opacity: 1;
+    transform: scale(1.07);
+}
+
+.imagemCard2 {
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    transition: height 0.9s ease;
+}
+
+.imagemCard2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100%;
+    background-image: url(convite.png);
+    opacity: 0;
+    transition: opacity 0.9s ease, transform 0.9s ease;
+}
+
+.imagemCard2:hover {
+    height: 250px;
+}
+
+.imagemCard2:hover::before {
+    opacity: 1;
+    transform: scale(1.07);
+}
+
+.imagemCard3 {
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    transition: height 0.9s ease;
+}
+
+.imagemCard3::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100%;
+    background-image: url(PUBLI.png);
+    opacity: 0;
+    transition: opacity 0.9s ease, transform 0.9s ease;
+}
+
+.imagemCard3:hover {
+    height: 250px;
+}
+
+.imagemCard3:hover::before {
+    opacity: 1;
+    transform: scale(1.07);
+}
+
+.imagemCard4 {
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    transition: height 0.9s ease;
+}
+
+.imagemCard4::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100%;
+    background-image: url(cardapio.png);
+    opacity: 0;
+    transition: opacity 0.9s ease, transform 0.9s ease;
+}
+
+.imagemCard4:hover {
+    height: 250px;
+}
+
+.imagemCard4:hover::before {
+    opacity: 1;
+    transform: scale(1.07);
+}
+
+/* Para empurrar o card abaixo */
+.card {
+    margin-bottom: 20px; /* Ajuste conforme necessário */
+    background: transparent !important;
+    color: white !important;
+    border: 2px solid rgb(123, 146, 146) !important;
+    width: 250px;
+}
+
+footer{
+    background-color: rgba(101, 90, 90, 0.06);
+}
