@@ -12,9 +12,25 @@ body {
     background-color: #171414 !important;
 }
 
+header{
+    background-color: rgba(101, 90, 90, 0.06);
+}
+
+header a{
+    color: white !important;
+}
+
+button a{
+    color: white !important;
+}
+
 section {
     margin-top: 50px;
     margin-bottom: 50px;
+}
+
+.colProjects{
+    padding: 30px;
 }
 
 .bg-cont{
